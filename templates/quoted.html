@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1>QUOTED</h1>
+    <div class="form-group">
+        {{ quote["name"] }} is worth ${{ quote["price"] }}
+    </div>
+{% endblock %}
